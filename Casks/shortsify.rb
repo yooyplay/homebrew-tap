@@ -8,4 +8,10 @@ cask "shortsify" do
   homepage "https://yooyplay.github.io/Shortsify/"
 
   app "Shortsify.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-cr", "#{appdir}/Shortsify.app"],
+      sudo: false
+  end
 end
