@@ -1,6 +1,6 @@
 cask "shortsify" do
-  version "1.0.3"
-  sha256 "cb93cf7f593172b556449efb838712b34096c8803573c9268763010ea5440754"
+  version "1.0.4"
+  sha256 "a819f25959b45b5001f99638f30104f7786dc9d43e53b89b4b5d11682e67c2b0"
 
   url "https://github.com/yooyplay/Shortsify/releases/download/v#{version}/Shortsify.dmg"
   name "Shortsify"
